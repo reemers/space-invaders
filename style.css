@@ -13,6 +13,8 @@ body {
   width: 300px;
   padding-bottom: 20px;
   color: white;
+  font-family: "Space Grotesk", sans-serif;
+  text-shadow: 4px 4px 4px black;
 }
 .container {
   display: flex;
@@ -23,7 +25,7 @@ body {
 .grid {
   width: 300px;
   height: 300px;
-  border: solid white 1px;
+  border: solid white 10px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -39,7 +41,7 @@ body {
 }
 
 .invader {
-  background-color: palevioletred;
+  background-color: #1b03a3;
   border-radius: 10px;
 }
 
@@ -57,4 +59,6 @@ body {
 
 .results {
   color: white;
+  font-family: "Space Grotesk", sans-serif;
+  text-shadow: 4px 4px 4px black;
 }
